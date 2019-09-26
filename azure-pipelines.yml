@@ -25,6 +25,6 @@ stages:
       inputs:
         command: buildAndPush
         dockerfile: '**/Dockerfile'
-        containerRegistry: rajeevContainerRegistry
+        containerRegistry: /subscriptions/efdf30e8-6b20-44c5-a783-cf0fe6cdc9b9/resourceGroups/myapp-rg/providers/Microsoft.ContainerRegistry/registries/rajeevContainerRegistr
         tags: |
           $(tag)
